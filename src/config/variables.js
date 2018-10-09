@@ -131,7 +131,7 @@ export default {
   },
 
   get gutter() {
-    return this.scale(15)
+    return this.scale(10)
   },
 
   /**
@@ -148,6 +148,6 @@ export default {
 
   // Header circle
   get headerCircleSize() {
-    return this.scale(80)
+    return this.scale(60)
   }
 }
